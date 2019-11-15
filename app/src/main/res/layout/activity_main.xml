@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:id="@+id/speechText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:text="Tap the Icon "/>
+
+    <ImageView
+        android:id="@+id/speechicon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:gravity="center"
+        android:onClick="speech"
+        android:padding="50dp"
+        android:src="@drawable/ic_settings_voice_black_24dp" />
+</LinearLayout>

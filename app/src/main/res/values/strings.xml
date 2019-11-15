@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SpeechRecogDemo</string>
+    <color name="transparent">#00000000</color>
+    <string name="title">Speech to Text</string>
+    <string name="buttonText">Speak</string>
+
+</resources>
